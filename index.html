@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystal Mist | Лучший кофе!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">Crystal<span>Mist</span></a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link">Главная</a></li>
+                    <li><a href="#features" class="nav-link">Преимущества</a></li>
+                    <li><a href="#subscribe" class="nav-link">Подписка</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="hero" class="hero">
+            <div class="container hero-content">
+                <h1 class="hero-title">Почувствуй вкус утра</h1>
+                <p class="hero-subtitle">Свежеобжаренные зерна и атмосфера уюта ждут вас.</p>
+                <a href="#subscribe" class="btn btn-primary">Заказать кофе</a>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2 class="section-title">Почему мы?</h2>
+                <div class="features-grid">
+                    <article class="feature-card">
+                        <div class="feature-icon">☕</div>
+                        <h3>Свежая обжарка</h3>
+                        <p>Мы обжариваем зерна каждое утро, чтобы вы чувствовали насыщенный вкус.</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-icon">🚀</div>
+                        <h3>Быстрая доставка</h3>
+                        <p>Привезем ваш заказ горячим в течение 30 минут по городу.</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-icon">❤️</div>
+                        <h3>Сделано с любовью</h3>
+                        <p>Каждый бариста вкладывает душу в приготовление вашего напитка.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="subscribe" class="subscribe">
+            <div class="container">
+                <div class="subscribe-wrapper">
+                    <h2 class="section-title">Подпишитесь на новости</h2>
+                    <p>Узнавайте первыми о новых сортах и акциях.</p>
+                    
+                    <form id="subscription-form" class="form">
+                        <div class="form-group">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" name="name" placeholder="Александр" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+                        </div>
+                        <button type="submit" class="btn btn-secondary">Подписаться</button>
+                        <p id="form-message" class="form-message"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Crystal Mist. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
